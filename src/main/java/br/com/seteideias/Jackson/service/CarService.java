@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j;
 
-@Log4j
+//@Log4j
 public class CarService {
 
     public String javaToString(CarDto carDto) throws JsonProcessingException {
