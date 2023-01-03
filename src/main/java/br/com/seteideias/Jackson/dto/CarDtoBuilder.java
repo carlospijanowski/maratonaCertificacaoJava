@@ -5,6 +5,8 @@ public final class CarDtoBuilder {
     private String model;
     private String color;
 
+    private Proprietario proprietario;
+
     private CarDtoBuilder() {
     }
 
@@ -22,12 +24,16 @@ public final class CarDtoBuilder {
         return this;
     }
 
+    public CarDtoBuilder withProprietario(Proprietario proprietario) {
+        this.proprietario = proprietario;
+        return this;
+    }
     public CarDtoBuilder withColor(String color) {
         this.color = color;
         return this;
     }
 
     public CarDto build() {
-        return new CarDto(id, model, color);
+        return new CarDto(id, model, color,proprietario);
     }
 }

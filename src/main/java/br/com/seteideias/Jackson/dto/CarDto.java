@@ -6,13 +6,16 @@ public class CarDto {
     private String model;
     private String color;
 
+    private Proprietario proprietario;
+
     public CarDto(){
 
     }
-    public CarDto(String id, String model, String color) {
+    public CarDto(String id, String model, String color, Proprietario proprietario) {
         this.id = id;
         this.model = model;
         this.color = color;
+        this.proprietario = proprietario;
     }
 
     public String getId() {
@@ -21,6 +24,10 @@ public class CarDto {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public  String getModel(){
+        return this.model;
     }
 
     @Override
