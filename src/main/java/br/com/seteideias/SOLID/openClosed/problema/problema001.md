@@ -23,4 +23,5 @@ class Integrador {
         logica para enviar o email 
     }   
 
+
 } 
