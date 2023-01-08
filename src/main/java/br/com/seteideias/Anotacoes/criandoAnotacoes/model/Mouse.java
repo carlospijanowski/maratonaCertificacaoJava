@@ -1,6 +1,7 @@
 package br.com.seteideias.Anotacoes.criandoAnotacoes.model;
 
 import br.com.seteideias.Anotacoes.criandoAnotacoes.annotations.AnotacaoNoField;
+import br.com.seteideias.Anotacoes.criandoAnotacoes.annotations.DispareImediatamente;
 import br.com.seteideias.Anotacoes.criandoAnotacoes.annotations.MuitoImportante;
 import lombok.Data;
 
@@ -15,10 +16,12 @@ public class Mouse {
     }
 
 
+    @DispareImediatamente
     public void fazeBarulho(){
         System.out.println("BEM BAIXINHO O BARULHO");
     }
 
+    @DispareImediatamente
     public void comeOque(){
         System.out.println("COME RACAO");
     }
