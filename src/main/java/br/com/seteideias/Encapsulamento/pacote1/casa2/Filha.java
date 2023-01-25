@@ -18,7 +18,7 @@ public class Filha extends Sogra {
         Sogro papai = new Sogro();
         System.out.println(papai.gostaDeBrejola);
 
-//        Sogra mamae = new Sogra();
+        Sogra mamae = new Sogra();
 //        System.out.println(mamae.);
 
     }
