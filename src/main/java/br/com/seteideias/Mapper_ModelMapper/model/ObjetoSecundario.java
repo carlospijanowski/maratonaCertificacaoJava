@@ -1,4 +1,4 @@
-package br.com.seteideias.ModelMapper;
+package br.com.seteideias.Mapper_ModelMapper.model;
 
 import lombok.Data;
 

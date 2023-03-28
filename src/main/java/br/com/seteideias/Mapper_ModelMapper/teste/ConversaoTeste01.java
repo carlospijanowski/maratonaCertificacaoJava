@@ -1,7 +1,7 @@
-package br.com.seteideias.ModelMapper.teste;
+package br.com.seteideias.Mapper_ModelMapper.teste;
 
-import br.com.seteideias.ModelMapper.ObjetoPrincipal;
-import br.com.seteideias.ModelMapper.ObjetoSecundario;
+import br.com.seteideias.Mapper_ModelMapper.model.ObjetoPrincipal;
+import br.com.seteideias.Mapper_ModelMapper.model.ObjetoSecundario;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.internal.util.Assert;
 
