@@ -1,4 +1,6 @@
-package br.com.seteideias.DESING_PATTERNS.criacionais.builder.model;
+package br.com.seteideias.DESING_PATTERNS.criacionais.builder.testes;
+
+import br.com.seteideias.DESING_PATTERNS.criacionais.builder.model.Adress;
 
 public class Teste001 {
     public static void main(String[] args) {
