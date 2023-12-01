@@ -2,7 +2,6 @@ package br.com.seteideias.Anotacoes.exemploAlura;
 
 import br.com.seteideias.Anotacoes.exemploAlura.annotation.ClasseValidadora;
 import br.com.seteideias.Anotacoes.exemploAlura.model.Usuario.model.Usuario;
-import net.bytebuddy.jar.asm.TypeReference;
 
 import java.time.LocalDate;
 import java.time.Month;
