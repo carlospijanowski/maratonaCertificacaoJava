@@ -1,5 +1,8 @@
 package br.com.seteideias.optional;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -33,6 +36,17 @@ public class Teste001 {
                 .collect(Collectors.toMap(e -> e, e -> e));
         String key1 = collect.get("key1");
         System.out.println(key1);
+
+
+        Optional<List<Integer>>numero = Optional.of(List.of(6,10,30));
+
+        numero.stream().forEach(e->e.stream().map(ne->ne*50)
+                .forEach(System.err::println));
+
+        System.out.println("************************************");
+
+        numero.stream().forEach(e->e.stream().map(ne->ne*150)
+                .collect(Collectors.toList()).forEach(ee-> System.out.println(ee)));
 
 
     }

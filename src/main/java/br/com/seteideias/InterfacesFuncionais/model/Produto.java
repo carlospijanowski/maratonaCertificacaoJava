@@ -1,4 +1,4 @@
-package br.com.seteideias.LambdaExpression.model;
+package br.com.seteideias.InterfacesFuncionais.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

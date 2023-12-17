@@ -1,8 +1,5 @@
-package br.com.seteideias.LambdaExpression;
+package br.com.seteideias.InterfacesFuncionais;
 
-import br.com.seteideias.LambdaExpression.model.Pessoa;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;

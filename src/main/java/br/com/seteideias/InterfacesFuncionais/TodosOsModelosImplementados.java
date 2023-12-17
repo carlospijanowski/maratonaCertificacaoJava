@@ -1,4 +1,4 @@
-package br.com.seteideias.LambdaExpression;
+package br.com.seteideias.InterfacesFuncionais;
 
 import java.util.Comparator;
 import java.util.function.*;

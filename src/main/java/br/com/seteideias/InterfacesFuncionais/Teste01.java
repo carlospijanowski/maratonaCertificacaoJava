@@ -1,4 +1,4 @@
-package br.com.seteideias.LambdaExpression;
+package br.com.seteideias.InterfacesFuncionais;
 
 public class Teste01 {
 

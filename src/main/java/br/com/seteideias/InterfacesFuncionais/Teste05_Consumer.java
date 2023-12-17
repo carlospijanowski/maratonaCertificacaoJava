@@ -1,6 +1,6 @@
-package br.com.seteideias.LambdaExpression;
+package br.com.seteideias.InterfacesFuncionais;
 
-import br.com.seteideias.LambdaExpression.model.Produto;
+import br.com.seteideias.InterfacesFuncionais.model.Produto;
 
 import java.util.function.Consumer;
 
