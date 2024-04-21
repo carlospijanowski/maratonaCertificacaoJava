@@ -1,12 +1,11 @@
 package br.com.seteideias.CompletableFuture;
 
-import org.springframework.scheduling.annotation.Async;
+import io.micrometer.observation.Observation;
 
 import java.time.Instant;
-import java.util.Timer;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
+import java.util.function.Function;
 
 public class Teste001 {
 
@@ -43,7 +42,7 @@ public class Teste001 {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            return "PAGAMENTO FEITO COM SUCESSO";
+            return " PAGAMENTO FEITO COM SUCESSO";
 
         });
     }
@@ -56,7 +55,7 @@ public class Teste001 {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            return "BAIXA EXECUTADA COM SUCESSO";
+            return " BAIXA EXECUTADA COM SUCESSO";
         });
     }
 
